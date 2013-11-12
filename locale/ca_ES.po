@@ -1,0 +1,11 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.opportunity,next_action:"
+msgid "Next Action"
+msgstr "Següent tasca"
+
+msgctxt "field:sale.opportunity,next_action_date:"
+msgid "Next Action Date"
+msgstr "Data següent tasca"
