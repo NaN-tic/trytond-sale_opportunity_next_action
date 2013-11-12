@@ -4,6 +4,7 @@
 from trytond.pool import Pool
 from .opportunity import *
 
+
 def register():
     Pool.register(
         SaleOpportunity,
