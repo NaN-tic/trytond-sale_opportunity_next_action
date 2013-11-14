@@ -4,7 +4,7 @@ import re
 import os
 import ConfigParser
 
-MODULE = sale_opportunity_next_action
+MODULE = 'sale_opportunity_next_action'
 PREFIX = 'nantic'
 MODULE2PREFIX = {}
 
