@@ -22,19 +22,14 @@ class TestCase(unittest.TestCase):
     '''
 
     def setUp(self):
-        trytond.tests.test_tryton.install_module('<module>')
+        trytond.tests.test_tryton.install_module(
+            'sale_opportunity_next_action')
 
     def test0005views(self):
         '''
         Test views.
         '''
-        test_view('<module>')
-
-    def test0006depends(self):
-        '''
-        Test depends.
-        '''
-        test_depends()
+        test_view('sale_opportunity_next_action')
 
 
 def doctest_dropdb(test):
