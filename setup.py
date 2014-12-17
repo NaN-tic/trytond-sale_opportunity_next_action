@@ -6,7 +6,7 @@ import os
 import ConfigParser
 
 MODULE = 'sale_opportunity_next_action'
-PREFIX = 'nantic'
+PREFIX = 'trytonzz'
 MODULE2PREFIX = {}
 
 
